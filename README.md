@@ -2,27 +2,35 @@ Jogo da Forca
 Objetivo do Projeto
 Desenvolver um jogo da forca em Python, com uma interface interativa no terminal, para praticar conceitos de lógica de programação e gerenciamento de projetos utilizando Git.
 
-Funcionalidades
-Escolha aleatória de palavras.
-Interface de texto para interação com o jogador.
-Controle de erros e número de tentativas.
-Exibição do progresso da palavra com letras corretas já adivinhadas.
-Mensagens amigáveis para os jogadores.
-Dificuldades Encontradas
-Durante o desenvolvimento do projeto, enfrentamos as seguintes dificuldades:
+## Funcionalidades
 
-Escolha aleatória de palavras: Ajustar a lógica para garantir a aleatoriedade e evitar repetições de palavras ao longo de várias execuções do jogo.
-Exibição do progresso da palavra: Implementar a atualização dinâmica da palavra com as letras já adivinhadas, sem comprometer a experiência do jogador.
-Gerenciamento de erros: Configurar corretamente o sistema de penalizações para erros e exibir mensagens claras para o jogador.
-Integração e testes: Garantir que todas as partes do código funcionassem de maneira integrada e corrigir bugs encontrados durante os testes.
-Uso do Git: Aprender e aplicar boas práticas no uso do Git para controle de versão e colaboração, como commits frequentes e mensagens claras.
-Cronograma de Desenvolvimento
-Semana 1: Configuração do repositório e planejamento do projeto.
-Semana 2: Implementação da lógica principal do jogo (escolha de palavras e verificações).
-Semana 3: Desenvolvimento da interface do usuário e exibição no terminal.
-Semana 4: Testes, ajustes finais e documentação do projeto.
-Tecnologias Utilizadas
-Python 3.x
-Git/GitHub para controle de versão.
+- **Escolha Aleatória de Palavras**: O jogo escolhe uma palavra aleatória a partir de uma lista.
+- **Interface no Terminal**: O jogador interage com o jogo através de comandos no terminal.
+- **Controle de Tentativas**: O jogador tem um número limitado de tentativas para acertar a palavra.
+- **Exibição de Progresso**: As letras corretas são reveladas à medida que o jogador adivinha.
+- **Mensagens Interativas**: O jogo fornece feedback claro e motivacional para o jogador.
 
-   git clone https://github.com/seu-usuario/jogo-da-forca.git
+## Cronograma
+
+- **Semana 1**: Planejamento do projeto e configuração do repositório Git.
+- **Semana 2**: Implementação da lógica de escolha de palavras e controle de tentativas.
+- **Semana 3**: Desenvolvimento da interface no terminal.
+- **Semana 4**: Testes, ajustes finais e documentação.
+
+## Desafios
+
+- **Escolha de Palavras Aleatórias**: Garantir que as palavras não se repetissem em execuções consecutivas.
+- **Exibição do Progresso da Palavra**: Manter a atualização dinâmica da palavra sem comprometer a jogabilidade.
+- **Gerenciamento de Erros**: Implementação de um sistema de penalização e feedback claro para o jogador.
+- **Uso do Git**: Adoção de boas práticas no controle de versão, como commits frequentes e mensagens claras.
+
+## Tecnologias
+
+- **Python 3.x**
+- **Git/GitHub**
+
+## Como Executar
+
+1. Clone o repositório:
+
+   git clone https://github.com/AleklimaZx/jogo-da-forca.git
